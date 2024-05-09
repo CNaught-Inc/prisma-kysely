@@ -1,10 +1,11 @@
 {
-  "name": "prisma-kysely",
+  "name": "@cnaught-inc/prisma-kysely",
   "description": "Generate Kysely database types from a Prisma schema",
   "repository": {
-    "url": "https://github.com/valtyr/prisma-kysely"
+    "type": "git",
+    "url": "git+https://github.com/cnaught-inc/prisma-kysely.git"
   },
-  "version": "1.8.0",
+  "version": "1.9.0",
   "main": "dist/generator.js",
   "files": [
     "dist"
@@ -63,5 +64,8 @@
     ],
     "importOrderSeparation": true,
     "importOrderSortSpecifiers": true
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
